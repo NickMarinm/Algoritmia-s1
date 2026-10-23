@@ -1,0 +1,120 @@
+# Diagrama de flujo: Cómo preparar un tinto
+
+## 1. Inicio
+
+- **Símbolo:** Óvalo.
+- **Descripción:** Iniciar el proceso de preparación del tinto.
+
+## 2. Variables
+
+Definir los elementos necesarios para preparar el tinto:
+
+| Variable | Descripción |
+|---|---|
+| `agua` | Cantidad de agua necesaria para una taza. |
+| `cafe` | Cantidad de café molido o instantáneo. |
+| `azucar` | Cantidad de azúcar (opcional). |
+| `taza` | Recipiente donde se servirá el tinto. |
+| `agua_caliente` | Indica si el agua está suficientemente caliente. |
+
+## 3. Paso a paso del proceso
+
+### Paso 1. Reunir los materiales
+
+- **Símbolo:** Rectángulo (proceso).
+- **Descripción:** Conseguir agua, café, una taza y azúcar si se desea.
+
+### Paso 2. Agregar agua a un recipiente
+
+- **Símbolo:** Rectángulo (proceso).
+- **Descripción:** Verter en un recipiente la cantidad de agua necesaria para una taza.
+
+### Paso 3. Calentar el agua
+
+- **Símbolo:** Rectángulo (proceso).
+- **Descripción:** Calentar el agua hasta que alcance una temperatura adecuada.
+
+### Paso 4. Verificar si el agua está caliente
+
+- **Símbolo:** Rombo (decisión).
+- **Pregunta:** ¿El agua está suficientemente caliente?
+
+**Opciones:**
+
+- **No:** Continuar calentando el agua y volver a verificar.
+- **Sí:** Continuar con la preparación del café.
+
+### Paso 5. Preparar el café
+
+- **Símbolo:** Rectángulo (proceso).
+- **Descripción:** Preparar el café según el tipo utilizado.
+
+**Opciones de preparación:**
+
+- **Café molido:** Colocar el café en un filtro y pasar el agua caliente a través de él.
+- **Café instantáneo:** Agregar el café a la taza y disolverlo con agua caliente.
+
+### Paso 6. Verificar si desea azúcar
+
+- **Símbolo:** Rombo (decisión).
+- **Pregunta:** ¿Desea agregar azúcar?
+
+**Opciones:**
+
+- **Sí:** Agregar azúcar al gusto.
+- **No:** Continuar sin agregar azúcar.
+
+### Paso 7. Mezclar
+
+- **Símbolo:** Rectángulo (proceso).
+- **Descripción:** Revolver el café para integrar el azúcar, si se agregó.
+
+### Paso 8. Servir el tinto
+
+- **Símbolo:** Rectángulo (proceso).
+- **Descripción:** Comprobar que el tinto esté listo para beber y servirlo en la taza si aún no se encuentra allí.
+
+## 4. Fin
+
+- **Símbolo:** Óvalo.
+- **Descripción:** Finalizar el proceso y disfrutar el tinto.
+
+## 5. Orden del diagrama de flujo
+
+El diagrama debe seguir esta secuencia:
+
+1. Inicio.
+2. Reunir los materiales.
+3. Agregar agua a un recipiente.
+4. Calentar el agua.
+5. Verificar si el agua está caliente.
+   - **No:** Regresar al paso de calentar el agua.
+   - **Sí:** Continuar.
+6. Preparar el café.
+7. Verificar si desea azúcar.
+   - **Sí:** Agregar azúcar.
+   - **No:** Continuar sin azúcar.
+8. Mezclar.
+9. Servir el tinto.
+10. Fin.
+
+## 6. Símbolos utilizados
+
+| Símbolo | Uso |
+|---|---|
+| Óvalo | Inicio y fin del proceso. |
+| Rectángulo | Actividad o proceso. |
+| Rombo | Decisión con diferentes caminos. |
+| Flechas | Indican la dirección del flujo. |
+
+## 7. Representación resumida
+
+`Inicio` → `Reunir materiales` → `Agregar agua` → `Calentar agua` → `¿Agua caliente?`
+
+- **No:** Regresar a `Calentar agua`.
+- **Sí:** Continuar a `Preparar café` → `¿Desea azúcar?`
+
+Desde la segunda decisión:
+
+- **Sí:** `Agregar azúcar` → `Mezclar` → `Servir el tinto` → `Fin`.
+- **No:** `Mezclar` → `Servir el tinto` → `Fin`.
